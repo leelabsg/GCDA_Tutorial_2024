@@ -14,6 +14,7 @@ Processes and codes for various practice sessions will be shared here. Please no
 **TA:** Kisung Nam ([email](mailto:kisung.nam@snu.ac.kr))
 
 ### Session 3 - Mendelian Randomization
+**Date:** November 15, 2024
 **TA:** Chang Hoon Kang ([email](mailto:chkang96@snu.ac.kr))
 
 ### Session 4 - PRS
