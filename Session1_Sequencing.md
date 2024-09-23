@@ -44,7 +44,7 @@ export PATH=$JAVA_HOME/bin:$PATH
 alias java17="~/jdk-17.0.2/bin/java"
 
 # install gatk4 
-conda install jatk4 -c bioconda
+conda install gatk4 -c bioconda
 # Download Picard (Find Latest Release: https://github.com/broadinstitute/picard/releases/latest)
 cd ~/GCDA/1_sequencing/utils
 wget https://github.com/broadinstitute/picard/releases/download/3.0.0/picard.jar
@@ -58,6 +58,7 @@ Here, we will use the `FASTA` file of 1000 Genome Phase 3 (GRCh37 build) and the
 You can browse FTP server (ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/) of 1000 Genome Project.
 
 ```
+mkdir -p ~/GCDA/1_sequencing/reference
 cd ~/GCDA/1_sequencing/reference
 # Download 1000 Genome reference panel
 wget http://ftp.1000genomes.ebi.ac.uk/vol1/ftp/technical/reference/human_g1k_v37.fasta.gz
