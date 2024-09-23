@@ -1,8 +1,8 @@
-# Practice Session #1: Sequencing (March 23, 2023)
+# Practice Session #1: Sequencing (Oct. 01, 2024)
 
 In this session, we will learn how to convert raw unmapped read files (`FASTQ`) to analysis-ready files (`VCF`). \
 The overall process in this session is mainly based on the [GATK Best Practice](https://gatk.broadinstitute.org/hc/en-us/categories/360002302312-Getting-Started). \
-This document was created on March 23, 2023 and the following contents were tested on local WSL (Ubuntu 22.04.1 LTS) + GSDS Cluster.
+This document was created on Oct. 01, 2024 and the following contents were tested on local WSL (Ubuntu 22.04.1 LTS) + GSDS Cluster.
 ### 0. Installing Linux and Anaconda in Windows
 Using Linux has become easy in Windows with WSL. \
 To start, launch windows powershell in administration mode and run following. 
