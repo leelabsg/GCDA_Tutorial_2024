@@ -57,7 +57,7 @@ wget https://github.com/broadinstitute/picard/releases/download/3.0.0/picard.jar
 
 To map our raw unmapped reads, we need the reference panel and the information for known variants. \
 Here, we will use the `FASTA` file of 1000 Genome Phase 3 (GRCh37 build) and the `VCF` file for known variants. \
-You can browse FTP server (ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/) of 1000 Genome Project.
+You can browse [FTP server](ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/) of 1000 Genome Project.
 
 ```
 mkdir -p ~/GCDA/1_sequencing/reference
@@ -92,10 +92,10 @@ bwa index -a bwtsw human_g1k_v37.fasta
 ```
 
 And we need a sequence read file (`FASTQ`) for the sample individual (HG00096).
-
+This can be downloaded from ftp server wih project description : [1000 Genome Project Phase 3](https://www.internationalgenome.org/1000-genomes-summary)
 ```
 cd ~/GCDA/1_sequencing/raw_reads
-# Download sequence read file from [1000 Genome Project Phase 3](https://www.internationalgenome.org/1000-genomes-summary)
+# Download sequence read file from 1000 Genome
 # sample HG00096
 wget http://ftp.1000genomes.ebi.ac.uk/vol1/ftp/phase3/data/HG00096/sequence_read/SRR062634.filt.fastq.gz
 gzip -d SRR062634.filt.fastq.gz
