@@ -20,8 +20,10 @@ wget https://repo.anaconda.com/archive/Anaconda3-2022.10-Linux-x86_64.sh
 bash Anaconda3-2022.10-Linux-x86_64.sh
 
 ```
-### Access GSDS cluster computational server via leelabguest account
+### Access Leelab computational server via leelabguest account
+To access to leelab computational server, you can use ssh command from any command shell, or vscode
 ```
+ssh leelabguest@147.47.200.131 -p 22555
 ID : leelabguest
 ```
 
