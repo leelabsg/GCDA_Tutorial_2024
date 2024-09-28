@@ -93,7 +93,7 @@ And we need a sequence read file (`FASTQ`) for the sample individual (HG00096).
 
 ```
 cd ~/GCDA/1_sequencing/raw_reads
-# Download sequence read file
+# Download sequence read file from [1000 Genome Project Phase 3](https://www.internationalgenome.org/1000-genomes-summary)
 # sample HG00096
 wget http://ftp.1000genomes.ebi.ac.uk/vol1/ftp/phase3/data/HG00096/sequence_read/SRR062634.filt.fastq.gz
 gzip -d SRR062634.filt.fastq.gz
@@ -136,9 +136,6 @@ Here are the quality value characters in left-to-right increasing order of quali
 ```
 
 You can learn more about `FASTQ` files on [Wikipedia](https://en.wikipedia.org/wiki/FASTQ_format).
-
-1000 Genome Project at https://www.internationalgenome.org/faq/about-fastq-sequence-read-files/
-
 
 Many of individuals in 1000 Genome Project have multiple `FASTQ` files, because many of them were sequenced using more than one run of a sequencing machine. \
 Each set of files named like `SRR062634_1.filt.fastq.gz`, `SRR062634_2.filt.fastq.gz` and `SRR062634.filt.fastq.gz` represent all the sequence from a sequencing run.
