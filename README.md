@@ -5,7 +5,7 @@ This repository is for the Genomic & Clinical Data Analysis course for the Fall 
 Processes and codes for various practice sessions will be shared here. Please note, the schedule is subject to change.
 
 ## Practice Session List
-### Session 1 - Sequencing Pipeline
+### [Session 1 - Sequencing Pipeline](Session1_Sequencing.md
 **Date:** October 1, 2024  
 **TA:** Seokho Jeong ([email](mailto:seokho92@snu.ac.kr))
 
