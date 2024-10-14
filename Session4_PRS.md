@@ -19,12 +19,12 @@ ssh leelabsg11
 conda activate python_3
 ``` 
 
-### 4. Make directory for practice session in your directory
+### 3. Make directory for practice session in your directory
 ``` 
 mkdir /data/GCDA/usr/YOUR_DIRECTORY/practice_4 
 ``` 
 
-### 5. Run PRScs 
+### 4. Run PRScs 
 ``` 
 python /data/home/leelabguest/GCDA/4_PRS/PRScs/PRScs.py \
 --ref_dir=/data/home/leelabguest/GCDA/4_PRS/data/reference/ldblk_1kg_eas \
@@ -34,12 +34,12 @@ python /data/home/leelabguest/GCDA/4_PRS/PRScs/PRScs.py \
 --out_dir=/data/GCDA/usr/YOUR_DIRECTORY/practice_4/prscs
 ``` 
 
-### 6. Merge chr1 - chr22 beta files into one file 
+### 5. Merge chr1 - chr22 beta files into one file 
 ``` 
 for i in {1..22}; do cat "/data/GCDA/usr/YOUR_DIRECTORY/practice_4/prscs_pst_eff_a1_b0.5_phiauto_chr$i.txt" >> /data/GCDA/usr/YOUR_DIRECTORY/practice_4/prscs_chr1-22.txt; done
 ``` 
 
-### 7. Calculate PRS using plink 
+### 6. Calculate PRS using plink 
 ``` 
 /data/home/leelabguest/utils/plink \
 --bfile /data/home/leelabguest/GCDA/4_PRS/data/plink/sample \
