@@ -1,8 +1,8 @@
-# Practice Session #2: Genome-wide Association Studies (GWAS) (April 6, 2023)
+# Practice Session #2: Genome-wide Association Studies (GWAS) (October 15, 2024)
 
 In this session, we will learn how to conduct the genome-wide association analysis using SAIGE. \
 (References: [Paper](https://www.nature.com/articles/s41588-018-0184-y), [Github](https://github.com/saigegit/SAIGE), [Documentation](https://saigegit.github.io/SAIGE-doc/)) \
-This document was created on October 13, 2024 and the following contents were tested on the Lee Lab cluster (Ubuntu 18.04 LTS).
+This document was created on October 14, 2024 and the following contents were tested on the Lee Lab cluster (Ubuntu 18.04 LTS).
 
 ### 1. Setting up the environment
 
