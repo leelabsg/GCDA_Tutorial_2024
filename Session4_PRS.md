@@ -26,10 +26,10 @@ mkdir /data/GCDA/usr/YOUR_DIRECTORY/practice_4
 
 ### 5. Run PRScs 
 ``` 
-python /home/n1/leelabguest/GCDA/3_PRS/PRScs/PRScs.py \
---ref_dir=/home/n1/leelabguest/GCDA/3_PRS/data/reference/ldblk_1kg_eas \
---bim_prefix=/home/n1/leelabguest/GCDA/3_PRS/data/plink/sample \
---sst_file=/home/n1/leelabguest/GCDA/3_PRS/data/summary_stat/sumstats.txt \
+python /data/home/leelabguest/GCDA/4_PRS/PRScs/PRScs.py \
+--ref_dir=/data/home/leelabguest/GCDA/4_PRS/data/reference/ldblk_1kg_eas \
+--bim_prefix=/data/home/leelabguest/GCDA/4_PRS/data/plink/sample \
+--sst_file=/data/home/leelabguest/GCDA/4_PRS/data/summary_stat/sumstats.txt \
 --n_gwas=177618 \
 --out_dir=/data/GCDA/usr/YOUR_DIRECTORY/practice_4/prscs
 ``` 
@@ -41,8 +41,8 @@ for i in {1..22}; do cat "/data/GCDA/usr/YOUR_DIRECTORY/practice_4/prscs_pst_eff
 
 ### 7. Calculate PRS using plink 
 ``` 
-/home/n1/leelabguest/plink \
---bfile /home/n1/leelabguest/GCDA/3_PRS/data/plink/sample \
+/data/home/leelabguest/utils/plink \
+--bfile /data/home/leelabguest/GCDA/4_PRS/data/plink/sample \
 --score /data/GCDA/usr/YOUR_DIRECTORY/practice_4/prscs_chr1-22.txt 2 4 6 \
 --out /data/GCDA/usr/YOUR_DIRECTORY/practice_4/score
 ``` 
