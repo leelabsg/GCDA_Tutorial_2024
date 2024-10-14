@@ -29,7 +29,7 @@ mkdir /data/GCDA/usr/YOUR_DIRECTORY/practice_4
 python /data/home/leelabguest/GCDA/4_PRS/PRScs/PRScs.py \
 --ref_dir=/data/home/leelabguest/GCDA/4_PRS/data/reference/ldblk_1kg_eas \
 --bim_prefix=/data/home/leelabguest/GCDA/4_PRS/data/plink/sample \
---sst_file=/data/home/leelabguest/GCDA/4_PRS/data/summary_stat/sumstats.txt \
+--sst_file=/data/home/leelabguest/GCDA/4_PRS/data/summary_stat/sumstats_prscs.txt \
 --n_gwas=177618 \
 --out_dir=/data/GCDA/usr/YOUR_DIRECTORY/practice_4/prscs
 ``` 
