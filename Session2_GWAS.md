@@ -142,6 +142,7 @@ IID	x1	                x2	y_binary  y_quantitative
 * Mixed effect model-based method
 * Score test to compute test statistics
 * Several techniques for fast computation
+For detailed explanation, please refer the [Notion page](https://admitted-guan-7d5.notion.site/SAIGE-10ea25444f7a802ea917d4aad44f2ce0).
 
 #### Why SAIGE?
 
