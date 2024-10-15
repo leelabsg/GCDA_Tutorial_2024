@@ -20,7 +20,7 @@ sudo usermod -aG docker $USER
 You can test if it works:
 
 ```
-docker run --rm -it -v /home/n1/leelabguest/GCDA/2_GWAS:/home/n1/leelabguest/GCDA/2_GWAS wzhou88/saige:1.3.3 /bin/bash
+docker run --rm -it -v /data/home/leelabguest/GCDA/2_GWAS:/data/home/leelabguest/GCDA/2_GWAS wzhou88/saige:1.3.3 /bin/bash
 ```
 
 ### 2. Preparing data
