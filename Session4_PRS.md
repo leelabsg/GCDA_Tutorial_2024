@@ -40,6 +40,8 @@ for i in {1..22}; do cat "/data/GCDA/usr/YOUR_DIRECTORY/practice_4/prscs_pst_eff
 ``` 
 
 ### 6. Calculate PRS using plink 
+Columns 2, 4, and 6 represent the SNP ID, the effect allele, and the effect size of the effect allele, respectively.
+
 ``` 
 /data/home/leelabguest/utils/plink \
 --bfile /data/home/leelabguest/GCDA/4_PRS/data/plink/sample \
