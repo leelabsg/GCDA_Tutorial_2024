@@ -9,7 +9,7 @@ Processes and codes for various practice sessions will be shared here. Please no
 **Date:** October 1, 2024  
 **TA:** Seokho Jeong ([email](mailto:seokho92@snu.ac.kr))
 
-### Session 2 - GWAS
+### [Session 2 - GWAS](Session2_GWAS.md)
 **Date:** October 15, 2024  
 **TA:** Kisung Nam ([email](mailto:kisung.nam@snu.ac.kr))
 
@@ -17,7 +17,8 @@ Processes and codes for various practice sessions will be shared here. Please no
 **Date:** November 5, 2024  
 **TA:** Chang Hoon Kang ([email](mailto:chkang96@snu.ac.kr))
 
-### Session 4 - PRS
+### [Session 4 - PRS] (Session4_PRS.md)
+**Date:** November 12, 2024  
 **TA:** Na Yeon Kim ([email](mailto:nayeonkim1@snu.ac.kr))
 
 ### Session 5 - EHR
