@@ -9,22 +9,17 @@ The data we are going to use are already preprocessed or downloaded.
 ssh leelabguest@147.47.200.131 -p 22555
 ```
 
-### 1. Connect CPU
-``` 
-ssh leelabsg11
-``` 
-
-### 2. Activate conda environment
+### 1. Activate conda environment
 ``` 
 conda activate python_3
 ``` 
 
-### 3. Make directory for practice session in your directory
+### 2. Make directory for practice session in your directory
 ``` 
 mkdir /data/GCDA/usr/YOUR_DIRECTORY/practice_4 
 ``` 
 
-### 4. Run PRScs 
+### 3. Run PRScs 
 ``` 
 python /data/home/leelabguest/GCDA/4_PRS/PRScs/PRScs.py \
 --ref_dir=/data/home/leelabguest/GCDA/4_PRS/data/reference/ldblk_1kg_eas \
@@ -34,12 +29,12 @@ python /data/home/leelabguest/GCDA/4_PRS/PRScs/PRScs.py \
 --out_dir=/data/GCDA/usr/YOUR_DIRECTORY/practice_4/prscs
 ``` 
 
-### 5. Merge chr1 - chr22 beta files into one file 
+### 4. Merge chr1 - chr22 beta files into one file 
 ``` 
 for i in {1..22}; do cat "/data/GCDA/usr/YOUR_DIRECTORY/practice_4/prscs_pst_eff_a1_b0.5_phiauto_chr$i.txt" >> /data/GCDA/usr/YOUR_DIRECTORY/practice_4/prscs_chr1-22.txt; done
 ``` 
 
-### 6. Calculate PRS using plink 
+### 5. Calculate PRS using plink 
 Columns 2, 4, and 6 represent the SNP ID, the effect allele, and the effect size of the effect allele, respectively.
 
 ``` 
