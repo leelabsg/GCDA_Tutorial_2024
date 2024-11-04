@@ -247,7 +247,7 @@ ldl_exp_dat_org <- read_exposure_data(
 ```
 file_protein<-'data/home/leelabguest/MR_tutorial/data/PLA2G7_outcome_SNP.txt'
 outcome_dat <- read_outcome_data(
-    filename = file_proteins,
+    filename = file_protein,
     sep = ",",
     snp_col = "POS_19",
     beta_col = "BETA",
