@@ -45,14 +45,14 @@ head(ao)
 ```
 ### 3. Exposure Data Example
 In this part of session, we will follow the example from the package using formatted summary statistics. \
-We want to discover causal relationship between BMI and CHD. \ 
+We want to discover causal relationship between BMI and CHD. \
 BMI comes from [GIANT](https://gwas.mrcieu.ac.uk/datasets/ieu-a-2/) Consortium \
 CHD is from [CARDIoGRAMplusC4D](https://gwas.mrcieu.ac.uk/datasets/ieu-a-7/). 
 ```
 bmi_exp_dat <- extract_instruments(outcomes = 'ieu-a-2')
 head(bmi_exp_dat)
 ```
-The output from this function is a new data frame with standardised column names: \
+The output from this function is a new data frame with standardized column names: \
 - SNP
 - exposure
 - beta.exposure
@@ -226,8 +226,7 @@ Here, the exposure SNPs come from a MR study of statins and cancer. Since statin
 
 Key point: When involving drug targets, it was important to identify SNPs from the target gene region associated with the exposure phenotype (LDL levels). 
 
-Exposure source: https://elifesciences.org/articles/57191
-
+Exposure source: https://elifesciences.org/articles/57191 \
 Outcome source: UKB-PPP Olink Proteomics data
 
 Same as before, we read in exposure and outcome files and then harmonize and then view outputs
