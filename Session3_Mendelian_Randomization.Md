@@ -52,7 +52,7 @@ CHD is from [CARDIoGRAMplusC4D](https://gwas.mrcieu.ac.uk/datasets/ieu-a-7/).
 bmi_exp_dat <- extract_instruments(outcomes = 'ieu-a-2')
 head(bmi_exp_dat)
 ```
-The output from this function is a new data frame with standardized column names: \
+The output from this function is a new data frame with standardized column names: 
 - SNP
 - exposure
 - beta.exposure
