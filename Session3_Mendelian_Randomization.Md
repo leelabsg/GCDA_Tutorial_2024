@@ -235,13 +235,13 @@ file_exp<-'/data/home/leelabguest/MR_tutorial/data/Statin_GWAS_0806.txt'
 ldl_exp_dat_org <- read_exposure_data( 
     filename = file_exp,
     sep = "\t",
-    snp_col = "POS",
+    snp_col = "pos",
     beta_col = "beta",
     se_col = "se",
-    effect_allele_col = "effect_allele",
-    other_allele_col = "other_allele",
-    eaf_col = "eaf",
-    pval_col = "p.value"
+    effect_allele_col = "A1",
+    other_allele_col = "A2",
+    eaf_col = "Freq.A1.1000G.EUR",
+    pval_col = "P-value"
 )
 ```
 ```
