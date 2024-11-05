@@ -17,7 +17,7 @@ Processes and codes for various practice sessions will be shared here. Please no
 **Date:** November 5, 2024  
 **TA:** Chang Hoon Kang ([email](mailto:chkang96@snu.ac.kr))
 
-### [Session 4 - PRS] (Session4_PRS.md)
+### [Session 4 - PRS](Session4_PRS.md)
 **Date:** November 12, 2024  
 **TA:** Na Yeon Kim ([email](mailto:nayeonkim1@snu.ac.kr))
 
